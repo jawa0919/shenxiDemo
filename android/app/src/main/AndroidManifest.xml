@@ -1,7 +1,18 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools">
+  <!-- Permissions options for the `camera` group -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <!--网络访问-->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <!-- Permissions options for the `storage` group -->
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:label="f_app_3_13_9"
         android:name="${applicationName}"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
