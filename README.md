@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+https://github.com/jawa0919/shenxiDemo/assets/18129670/bf118add-e6d6-4d03-91d2-b30d60f2c9ab
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
